@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vertical_img</title>
+    <style>
+        html,
+        body {
+            margin:0;
+        }
+
+        .vimg {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            background-color:gold;
+            justify-content: center;
+            align-items: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="vimg">
+        <div style="
+        flex: 1;
+
+        ">
+        <img src="1.jpg" 
+        alt="1"
+        style=" width: 35vw; 
+                height: 35vh;
+                object-fit: cover;
+                margin-bottom: 8px;"
+        />
+        </div>
+
+        <div style="
+        flex: 1;
+
+        ">
+        <img src="3.jpg" 
+        alt="1"
+        style=" width: 35vw; 
+                height: 35vh;
+                object-fit: cover;
+                margin-bottom: 8px;"
+        />
+        </div>
+
+        <div style="
+        flex: 1;
+
+        ">
+        <img src="2.jpg" 
+        alt="1"
+        style=" width: 35vw; 
+                height: 35vh;
+                object-fit: cover;"
+            />
+        </div>
+    </div>
+</body>
+</html>

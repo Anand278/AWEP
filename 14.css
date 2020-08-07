@@ -1,0 +1,39 @@
+html,body {
+    margin: 0;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.first {
+    display: flex;
+    flex: 1;
+    background-color: gold;
+    justify-content: space-between;
+    color: white;
+}
+
+
+.second {
+    display: flex;
+    flex: 10;
+    background-color: gray;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.third {
+    display: flex;
+    flex: 1;
+    background-color:aqua ;
+    justify-content: space-between;
+    color: white;
+   
+}
