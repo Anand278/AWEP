@@ -1,0 +1,33 @@
+html, body {
+    margin: 0;
+}
+
+.parentclass {
+    background-color: lightblue;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#counterid {
+    font-size: 64px;
+    color: blue;
+}
+
+.childclass {
+        margin: 10px;
+}
+
+#Incrementid {
+    font-size: 20px;
+    color: teal;
+    font-weight: bold;
+}
+
+#Decrementid {
+    font-size: 20px;
+    color: teal;
+    font-weight: bold;
+}

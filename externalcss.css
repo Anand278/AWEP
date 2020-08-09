@@ -1,0 +1,31 @@
+.btn {
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+#b1 {
+    color: red;
+    font-size: 32px;
+    font-family: cursive;
+            
+}
+
+
+#b2 {
+    color: orange;
+    font-size: 32px;
+    font-family: cursive;
+
+}
+
+
+#b3 {
+    color:blue;
+    font-size: 32px;
+    font-family: cursive;
+
+}
