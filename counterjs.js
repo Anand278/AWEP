@@ -13,6 +13,3 @@ function Decrement() {
     counterEle.innerHTML = counter;
 
 }
-
-
-
