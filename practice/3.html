@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Like Comment part 3</title>
+
+    <script src="3.js"></script>
+    <style>
+        body,html {
+            margin : 0;
+        }
+    </style>
+</head>
+<body>
+    <div>Someone posted Something</div>
+
+    <div style="margin-top: 8px;
+                margin-bottom: 8px">
+        <input id="inputid"
+            type="text"
+            name=""
+            placeholder="Type Comment Here"
+        />
+    </div>
+
+    <div>
+        <button id="likebtn" onclick="LikeHere()">
+            Like 1 
+        </button>
+        
+        <button id="Commentbtn" onclick="CommentHere()">
+            Comment Now
+        </button>
+    </div>
+
+    <div id="CommentBox">
+        <div id="commentid"
+            style="display:flex;
+            justify-content: space-between;
+            width: 100vw;
+            margin-top: 8px;"
+        >
+           <div> comment</div> 
+
+
+        <button id="deletebtn">Delete</button>
+        </div>
+    </div>
+
+
+</body>
+</html>
